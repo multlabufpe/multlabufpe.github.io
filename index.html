@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MultLab — Multidisciplinary Laboratory for Statistical Modeling at the Federal University of Pernambuco (UFPE).">
+  <meta name="theme-color" content="#0b0d10">
+  <meta property="og:title" content="MultLab | UFPE">
+  <meta property="og:description" content="Multidisciplinary Laboratory for Statistical Modeling — Department of Statistics, CCEN/UFPE.">
+  <meta property="og:type" content="website">
+  <title>MultLab — Statistical Modeling | UFPE</title>
+  <link rel="icon" href="assets/logo-transparent.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="MultLab — home">
+        <img src="assets/logo-transparent.png" alt="MultLab logo">
+      </a>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+
+      <nav id="main-nav" class="main-nav">
+        <a href="#lab" data-i18n="nav.lab">Laboratory</a>
+        <a href="#research" data-i18n="nav.research">Research</a>
+        <a href="#coordination" data-i18n="nav.team">Team</a>
+        <a href="#publications" data-i18n="nav.publications">Publications</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="nav-tools">
+        <div class="language-switcher" aria-label="Language">
+          <button class="lang-button active" data-lang-btn="en">EN</button>
+          <span>/</span>
+          <button class="lang-button" data-lang-btn="pt">PT</button>
+        </div>
+        <button class="theme-toggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+          <span class="theme-icon">◐</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> UFPE · CCEN · Department of Statistics</p>
+          <h1>Modeling the<br><em>complexity</em><br>of data.</h1>
+          <p class="hero-lead" data-i18n="hero.lead">
+            <strong>MultLab</strong> is the Multidisciplinary Laboratory for Statistical Modeling,
+            dedicated to statistical methodology and its applications to complex scientific problems.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#research"><span data-i18n="hero.explore">Explore research</span> <span>↗</span></a>
+            <a class="button button-ghost" href="#coordination" data-i18n="hero.team">Meet the team</a>
+          </div>
+          <div class="hero-meta">
+            <div><strong>UFPE</strong><span data-i18n="hero.ufpe">Federal University of Pernambuco</span></div>
+            <div><strong>CCEN</strong><span data-i18n="hero.ccen">Center for Exact and Natural Sciences</span></div>
+            <div><strong>2023</strong><span data-i18n="hero.authorized">laboratory authorized by UFPE</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay" aria-hidden="true">
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="data-point p1"></div><div class="data-point p2"></div>
+          <div class="data-point p3"></div><div class="data-point p4"></div>
+          <div class="data-point p5"></div><div class="data-point p6"></div>
+          <div class="curve curve-a"></div><div class="curve curve-b"></div>
+          <div class="visual-label label-top">INFERENCE</div>
+          <div class="visual-label label-bottom">DATA → MODEL → INSIGHT</div>
+          <div class="visual-center">M<span>×</span>L</div>
+        </div>
+      </div>
+      <div class="scroll-cue"><span></span> scroll to explore</div>
+    </section>
+
+    <section class="section intro" id="lab">
+      <div class="container two-col">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 · <span data-i18n="section.lab">The laboratory</span></p>
+          <h2>Statistics for<br><span data-i18n="lab.heading">real-world data.</span></h2>
+        </div>
+        <div class="intro-copy reveal reveal-delay">
+          <p class="lead" data-i18n="lab.lead">
+            MultLab is part of the Department of Statistics at the Center for Exact and Natural Sciences
+            of the Federal University of Pernambuco.
+          </p>
+          <p data-i18n="lab.p1">
+            The laboratory was authorized by UFPE in 2023 as the Multidisciplinary Laboratory for Statistical Modeling,
+            linked to CCEN. Its work connects methodological development, statistical computing and applications across scientific fields.
+          </p>
+          <p data-i18n="lab.p2">
+            The research areas presented on this website are an editorial synthesis based on the public research,
+            projects and scientific output of the coordinators and collaborators — not a normative list of official laboratory research lines.
+          </p>
+          <div class="source-note">
+            <span data-i18n="lab.source">Institutional source</span>
+            <a href="https://www.ufpe.br/" target="_blank" rel="noopener">UFPE ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container stats-grid">
+        <article class="stat-card reveal">
+          <span class="stat-number">01</span>
+          <h3 data-i18n="stats.modeling.title">Modeling</h3>
+          <p data-i18n="stats.modeling.text">Statistical models for representing complex structures and relationships in data.</p>
+        </article>
+        <article class="stat-card reveal reveal-delay">
+          <span class="stat-number">02</span>
+          <h3 data-i18n="stats.inference.title">Inference</h3>
+          <p data-i18n="stats.inference.text">Frequentist and Bayesian approaches to estimation, diagnosis and prediction.</p>
+        </article>
+        <article class="stat-card reveal reveal-delay-2">
+          <span class="stat-number">03</span>
+          <h3 data-i18n="stats.applications.title">Applications</h3>
+          <p data-i18n="stats.applications.text">Scientific problems in health, social sciences, nutrition, finance and other fields.</p>
+        </article>
+        <article class="stat-card reveal reveal-delay-3">
+          <span class="stat-number">04</span>
+          <h3 data-i18n="stats.collaboration.title">Collaboration</h3>
+          <p data-i18n="stats.collaboration.text">Research with national and international partners and student training.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section research" id="research">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">02 · <span data-i18n="section.research">Research</span></p>
+          <h2>Where MultLab<br><span data-i18n="research.heading">asks questions of data.</span></h2>
+          <p data-i18n="research.intro">
+            A map of research areas that appear prominently in the public work and projects associated with the coordinators.
+          </p>
+        </div>
+
+        <div class="research-grid">
+          <article class="research-card large reveal">
+            <div class="card-index">A01</div><div class="card-icon">∑</div>
+            <h3 data-i18n="research.regression.title">Regression models</h3>
+            <p data-i18n="research.regression.text">Linear and generalized models, inference, diagnostics and structures for censored or non-standard responses.</p>
+            <div class="tags"><span>GLM</span><span>Regression</span><span>Censoring</span></div>
+          </article>
+
+          <article class="research-card reveal reveal-delay">
+            <div class="card-index">A02</div><div class="card-icon">↝</div>
+            <h3 data-i18n="research.time.title">Time series</h3>
+            <p data-i18n="research.time.text">Discrete and continuous processes, estimation, diagnostics and forecasting under different approaches.</p>
+            <div class="tags"><span>Forecasting</span><span>INAR</span><span>AR</span></div>
+          </article>
+
+          <article class="research-card reveal reveal-delay-2">
+            <div class="card-index">A03</div><div class="card-icon">π</div>
+            <h3 data-i18n="research.bayes.title">Bayesian inference</h3>
+            <p data-i18n="research.bayes.text">Bayesian modeling, estimation and prediction for complex data and dependent processes.</p>
+            <div class="tags"><span>Bayes</span><span>Inference</span><span>Computing</span></div>
+          </article>
+
+          <article class="research-card reveal">
+            <div class="card-index">A04</div><div class="card-icon">⌁</div>
+            <h3 data-i18n="research.econometrics.title">Econometrics & complex data</h3>
+            <p data-i18n="research.econometrics.text">Methods for longitudinal structures, functional data, missing data and applications in social and health sciences.</p>
+            <div class="tags"><span>Econometrics</span><span>Big Data</span><span>Missing Data</span></div>
+          </article>
+
+          <article class="research-card reveal reveal-delay">
+            <div class="card-index">A05</div><div class="card-icon">◌</div>
+            <h3 data-i18n="research.applied.title">Applied modeling</h3>
+            <p data-i18n="research.applied.text">Turning scientific problems into interpretable statistical models, with attention to uncertainty and prediction.</p>
+            <div class="tags"><span>Health</span><span>Social Sciences</span><span>Nutrition</span></div>
+          </article>
+
+          <article class="research-card dark-card reveal reveal-delay-2">
+            <span class="mini-label" data-i18n="research.perspective.label">Perspective</span>
+            <h3 data-i18n="research.perspective.title">From theory to application.</h3>
+            <p data-i18n="research.perspective.text">Research combines methodological development, simulation, statistical computing and applications to real data.</p>
+            <a href="#publications" class="text-link"><span data-i18n="research.perspective.link">View publications</span> <span>→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section people" id="coordination">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 · <span data-i18n="section.team">Coordination</span></p>
+          <h2>Two perspectives,<br><span data-i18n="team.heading">one laboratory.</span></h2>
+        </div>
+
+        <div class="people-grid">
+          <article class="person-card reveal">
+            <div class="person-top">
+              <div class="avatar">AW</div>
+              <div>
+                <p class="person-role" data-i18n="team.coordinator">MultLab · Coordinator</p>
+                <h3>Aldo William<br>Medina Garay</h3>
+              </div>
+            </div>
+            <p class="person-bio" data-i18n="aldo.bio">
+              Professor at the Department of Statistics at UFPE. His public academic profile highlights
+              generalized linear models, censored models and regression theory.
+            </p>
+            <div class="person-facts">
+              <span><b>PhD</b> USP · 2014</span>
+              <span><b data-i18n="team.area">Area</b> Statistical modeling</span>
+            </div>
+            <div class="person-links">
+              <a href="mailto:agaray@de.ufpe.br">agaray@de.ufpe.br</a>
+              <a href="https://sites.google.com/de.ufpe.br/agaray" target="_blank" rel="noopener" data-i18n="team.personal">Personal page ↗</a>
+              <a href="https://lattes.cnpq.br/6628260142102150" target="_blank" rel="noopener">Currículo Lattes ↗</a>
+            </div>
+          </article>
+
+          <article class="person-card reveal reveal-delay">
+            <div class="person-top">
+              <div class="avatar avatar-alt">FM</div>
+              <div>
+                <p class="person-role" data-i18n="team.coordinator">MultLab · Coordinator</p>
+                <h3>Francyelle de<br>Lima Medina</h3>
+              </div>
+            </div>
+            <p class="person-bio" data-i18n="francy.bio">
+              Professor at the Department of Statistics at UFPE. Her public academic profile highlights
+              time series and econometrics, including discrete processes, estimation and forecasting.
+            </p>
+            <div class="person-facts">
+              <span><b>PhD</b> USP · 2014</span>
+              <span><b data-i18n="team.area">Area</b> Time series</span>
+            </div>
+            <div class="person-links">
+              <a href="mailto:francy@de.ufpe.br">francy@de.ufpe.br</a>
+              <a href="https://www.ufpe.br/dep-estatistica/corpo-docente" target="_blank" rel="noopener" data-i18n="team.ufpeprofile">UFPE profile ↗</a>
+              <a href="https://lattes.cnpq.br/0918386992468968" target="_blank" rel="noopener">Currículo Lattes ↗</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="collab-banner reveal">
+          <div>
+            <span class="mini-label" data-i18n="collab.label">INTERNATIONAL CONNECTION · 2026–2027</span>
+            <h3>STAND-UP · CAPES–Math-AmSud</h3>
+            <p data-i18n="collab.text">
+              Aldo William Medina Garay is presented as the Brazilian coordinator of the STAND-UP project
+              under the CAPES-MATH-AMSUD 2026–2027 programs.
+            </p>
+          </div>
+          <a href="https://doity.com.br/jornadafrancobrasileiraufpe" target="_blank" rel="noopener" class="button button-dark" data-i18n="collab.button">Event & details ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section publications" id="publications">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">04 · <span data-i18n="section.publications">Publications</span></p>
+          <h2>Research that<br><span data-i18n="pub.heading">keeps moving.</span></h2>
+          <p data-i18n="pub.intro">Selected recent works from the public scientific output of Aldo William Medina Garay, included to contextualize the laboratory's activity.</p>
+        </div>
+
+        <div class="pub-list">
+          <article class="pub-item reveal">
+            <span class="pub-year">2026</span>
+            <div><h3>Generalized Poisson regression model: Properties, residual analysis, and machine learning.</h3>
+              <p>Edwin M. Ortega; Aldo M. Garay; Gabriela M. Rodrigues; Roberto Vila; Gauss M. Cordeiro · <em>Quality & Quantity</em>, 60, 5969–5990.</p></div>
+            <span class="pub-arrow">↗</span>
+          </article>
+          <article class="pub-item reveal reveal-delay">
+            <span class="pub-year">2025</span>
+            <div><h3>Likelihood-based inference for interval censored regression models under heavy-tailed distributions.</h3>
+              <p>Yessenia A. Gil; Aldo M. Garay; Victor H. Lachos · <em>Statistical Methods & Applications</em>, 34, 519–544.</p></div>
+            <span class="pub-arrow">↗</span>
+          </article>
+          <article class="pub-item reveal reveal-delay-2">
+            <span class="pub-year">2025</span>
+            <div><h3>Mixed-effects models for censored data with autoregressive errors using the multivariate Student’s t-distribution.</h3>
+              <p>Zhong, K.; Olivari, R.C.; Garay, A.M.; Lachos, V.H. · <em>The New England Journal of Statistics in Data Science</em>, 3, 119–134.</p></div>
+            <span class="pub-arrow">↗</span>
+          </article>
+          <article class="pub-item reveal">
+            <span class="pub-year">2024</span>
+            <div><h3>Bayesian analysis of censored/missing regression models with autoregressive errors and symmetrical distributions.</h3>
+              <p>Garay, A.M.; Medina, F.; Torres, F.S.; Lachos, V.H. · <em>Statistical Papers</em>, 65, 5649–5690.</p></div>
+            <span class="pub-arrow">↗</span>
+          </article>
+        </div>
+
+        <div class="center-action reveal">
+          <a class="button button-outline" href="https://sites.google.com/de.ufpe.br/agaray/publications" target="_blank" rel="noopener" data-i18n="pub.more">View full publication list ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-box reveal">
+        <div>
+          <p class="eyebrow">05 · <span data-i18n="section.contact">Contact</span></p>
+          <h2>Let's talk<br><span data-i18n="contact.heading">about research?</span></h2>
+          <p data-i18n="contact.text">
+            MultLab is open to collaborations, projects, supervision and discussions about statistical modeling.
+          </p>
+        </div>
+        <div class="contact-details">
+          <a class="contact-line" href="mailto:agaray@de.ufpe.br">
+            <span data-i18n="contact.aldo">Coordination · Aldo</span><strong>agaray@de.ufpe.br ↗</strong>
+          </a>
+          <a class="contact-line" href="mailto:francy@de.ufpe.br">
+            <span data-i18n="contact.francy">Coordination · Francyelle</span><strong>francy@de.ufpe.br ↗</strong>
+          </a>
+          <div class="contact-line">
+            <span data-i18n="contact.institution">Institutional reference</span>
+            <strong>Department of Statistics · CCEN/UFPE</strong>
+            <small>Av. Jorn. Aníbal Fernandes, 497–629 · Cidade Universitária · Recife–PE</small>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/logo-transparent.png" alt="MultLab" class="footer-logo">
+        <p>Multidisciplinary Laboratory for Statistical Modeling · UFPE</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.ufpe.br/dep-estatistica/corpo-docente" target="_blank" rel="noopener">Department of Statistics ↗</a>
+        <a href="https://www.pgest-ufpe.org/" target="_blank" rel="noopener">Graduate Program in Statistics ↗</a>
+        <a href="https://www.ufpe.br/" target="_blank" rel="noopener">UFPE ↗</a>
+      </div>
+      <div class="footer-note">
+        <span>MultLab · 2026</span>
+        <span>GitHub Pages ready</span>
+      </div>
+    </div>
+    <div class="container legal">
+      <p data-i18n="footer.note">Institutional content compiled from public UFPE and academic sources. Review information with the coordinators before definitive publication.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
